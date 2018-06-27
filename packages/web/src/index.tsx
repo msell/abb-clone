@@ -4,6 +4,7 @@ import registerServiceWorker from './registerServiceWorker';
 import { ApolloProvider } from 'react-apollo'
 import { client } from './Apollo';
 import { Routes } from './routes';
+import './index.css'
 
 ReactDOM.render(
   <ApolloProvider client={client}>
